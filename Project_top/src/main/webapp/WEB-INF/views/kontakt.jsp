@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Contact page. </title>
 </head>
 <body>
-
+<h2>Welcome in Contact page</h2>
 </body>
 </html>
