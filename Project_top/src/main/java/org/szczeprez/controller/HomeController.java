@@ -1,4 +1,4 @@
-package org.szczeprez.kantor;
+package org.szczeprez.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -34,6 +34,13 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
+	}
+	@RequestMapping(value = "/kontakt", method = RequestMethod.GET)
+	public String home(Locale locale) {
+		logger.info("Welcome in Kontact! The client locale is {}.", locale);
+		
+ 
+		return "kontakt";
 	}
 	
 }
